@@ -1,0 +1,337 @@
+
+/*===== General Styles ===== */
+
+body {
+  background: url('../assets/img/wormz.png');
+}
+
+h1, h3, p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+button {
+  padding: 15px 40px;
+  background-color: #9AE0FF;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px #888888;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  font-size: 20px;
+  background-color: #9AE0FF;
+  padding: 15px;
+  box-shadow: 0px 10px 20px 0px #888888;
+  width: 100% !important;
+}
+
+#number {
+  font-size: 35px;
+}
+
+.more {
+  text-align: center;
+  padding: 10px;
+}
+/* ===== HERO Landing Page ======*/
+.hero-container {
+  height: 100vh;
+  background-image: url("../assets/img/hero1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-header,
+.hero-action,
+.hero-question {
+  text-align: center;
+}
+
+
+.hero-header {
+  padding: 10px 0;
+  height: 15%;
+  font-size: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+hr {
+  width: 30%;
+}
+
+.hero-question {
+  font-size: 25px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.hero-action {
+  font-size: 13px;
+  margin: 10px auto;
+  width: 70%;
+}
+
+.hero-action p {
+  margin: 5px;
+}
+
+.hero-action button {
+  margin-bottom: 30px;
+}
+
+#hero-or {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.hero-action #number {
+  font-size: 40px;
+}
+
+
+
+/*===== Types of Service =======*/
+
+.services-container {
+  margin: 10px auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+.services-container svg {
+  width: 60px;
+  height: 60px;
+}
+
+.service-box {
+  margin: 60px 0;
+  padding: 20px;
+}
+
+/*===== Map =======*/
+
+.location-map-container h1 {
+  text-align: center;
+  width: 50%;
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+#location-map {
+  height: 500px;
+}
+
+
+/*===== Doctor information box =======*/
+
+.doctor-box-imgContainer {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/img/headshot1.jpg");
+  margin: 40px auto 0;
+  box-shadow: 0px 10px 20px 0px #888888;
+}
+
+.doctor-box {
+  margin: 0 auto 120px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.doctor-box-desc {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.doctor-box-desc p {
+  margin: 0px;
+}
+
+.doctor-box-title {
+  padding: 25px 0;
+}
+
+.doctor-box-section {
+  padding: 12px;
+}
+
+/*===== Book Now Box =======*/
+
+.call-to-action {
+  margin: 120px auto;
+}
+
+#call {
+  padding: 20px;
+}
+
+/*===== Footer =======*/
+.footer-container {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+.contact-box {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.social-box svg {
+  padding:20px;
+  height: 30px;
+  width: 30px;
+  fill: white;
+}
+
+/*============ MEDIA QUERIES =============*/
+
+@media screen and (min-width: 600px) {
+
+  /*============ general ===========*/
+  .header {
+    font-size: 30px;
+  }
+
+  /*============ hero ==============*/
+  .hero-header {
+    font-size: 10px;
+  }
+
+  .hero-question {
+    font-size: 45px;
+  }
+
+  .hero-action {
+    font-size: 30px;
+  }
+
+  #hero-or {
+    font-size: 20px;
+  }
+
+  #number {
+    font-size: 70px;
+  }
+
+  .location-map-container h1 {
+    font-size: 30px;
+  }
+
+  .doctor-box-imgContainer {
+    width: 500px;
+    border-radius: 50%;
+  }
+
+  /*============ services ==============*/
+
+  .services-container {
+    max-width: 400px;
+  }
+
+  .services-container svg {
+    height: 120px;
+    width: 120px;
+  }
+
+  .service-box h2 {
+    font-size: 35px;
+  }
+
+  .service-box p {
+    font-size: 30px;
+  }
+
+  /*======= DR's Information ============*/
+
+  .doctor-box-imgContainer {
+    width: 500px;
+  }
+
+  .doctor-box-title {
+    font-size: 50px;
+  }
+
+  .doctor-box-section {
+    font-size: 30px;
+  }
+
+  /*============ map ==============*/
+
+  #location-map {
+    height: 700px;
+  }
+
+  /*============ footer ==============*/
+
+  .social-box svg {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+  }
+
+  .footer-container p {
+    font-size: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  /*============ hero ==============*/
+  .hero-header {
+    height: 15vh;
+    font-size: 20px;
+  }
+
+  .hero-question {
+    font-size: 55px;
+    padding-bottom: 60px;
+  }
+
+  .hero-action {
+    font-size: 50px;
+  }
+
+  #hero-or {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  #number {
+    font-size: 40px;
+  }
+
+  .service-box h2 {
+    font-size: 35px;
+  }
+
+  .service-box p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .header,
+  #location-map {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+
+/*Breakpoints 600px, 900px, 1200px, and 1800px*/
